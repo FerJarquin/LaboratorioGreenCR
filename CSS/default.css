@@ -1,0 +1,132 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    
+    
+    font-family: sans-serif;
+}
+
+#outer{
+    background-color: #fff;
+    width: 920px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+header #logo {
+    height: 250px;
+    width: 880px;
+    margin: auto;
+}
+
+header #logo h1{
+    font-size: 60px;
+    letter-spacing: -1px;
+    margin-top: -220px;
+    margin-left: 20px;
+    color: #00800b;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    height: auto;
+    margin: 0px 19px 20px 20px;
+    background-color: #488000;
+}
+
+#container .principal{
+    float: left;
+    color: white;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+}
+
+#container a:hover{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    background: #ff7500;
+}
+
+#container a.last{
+    border-right: 0px;
+}
+
+footer {
+    border-top: double;
+    clear: both;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    padding-top: 7px;
+    background-color: #488000;
+    margin: 10px 19px 10px 20px;
+
+}
+
+footer a{
+    color: white;
+    text-decoration-line: underline;
+}
+
+#secundarycontent {
+    width: 280px;
+    float: left;
+    text-align: justify;
+    margin: 0px 0px 10px 20px;
+}
+
+#secundarycontent h1{
+    margin: 0px 0px 10px 20px;
+}
+
+#secundarycontent .news h3{
+    margin: 20px;
+    color: #488000;
+}
+
+#secundarycontent p{
+    margin: 20px;
+}
+
+#secundarycontent .tree{
+    float: left;
+    margin-left: 20px;
+}
+
+#primarycontent {
+    width: 600px;
+    float: right;
+    text-align: justify;
+    margin: 0px 19px 10px 0;
+}
+
+.frog{
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+
+#primarycontent .welcome h2{
+    margin-bottom: 20px;
+}
+
+#primarycontent .visit h3{
+    margin: 20px 0 20px 0;
+    color: #488000;
+}
+
+#primarycontent .visit p{
+    margin-bottom: 20px;
+}
+
+#principalcontent{
+    line-height: 142%;
+}
